@@ -11,10 +11,10 @@ import io
 
 device = torch.device('cpu')
 
-model, decoder, utils = torch.hub.load(repo_or_dir='SYSTRAN/faster-whisper',
-                                    #    'snakers4/silero-models',
-                                       model='faster_whisper',
-                                    #    'silero_stt',
+model, decoder, utils = torch.hub.load(repo_or_dir='snakers4/silero-models',
+                                       # 'SYSTRAN/faster-whisper',
+                                       # model='faster_whisper',
+                                       'silero_stt',
                                        language='en',
                                        device=device)
 
