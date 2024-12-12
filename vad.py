@@ -1,3 +1,4 @@
+#git clone https://github.com/snakers4/silero-vad.git
 #pip install SpeechRecognition
 #pip install pydub
 #pip install omegaconf
